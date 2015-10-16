@@ -51,6 +51,8 @@ int main()
     if ((w & 1) == 0) w_even = 1; // Is width even?
     if ((h & 1) == 0) h_even = 1; // Is height even?
     if ((w & 2) != 0)   side = 1; // Is width 4n + a(a=0,1)?
+                                  //// (it is needed to adjust
+                                  ////  left edge of NARUTO.)
 
     wh = w/2;  hh = h/2;          // center point
 
