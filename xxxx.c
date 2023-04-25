@@ -26,7 +26,6 @@ int main(void)
 {
     int w, h,  wh, hh,  x, y;
     char s, t;
-    int r_2;
 
     scanf("%c%c %d %d", &s, &t, &w, &h);
 
