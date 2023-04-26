@@ -24,7 +24,7 @@
 
 int main(void)
 {
-    int w, h,  wh, hh,  x, y;
+    int w, h, x, y;
     char s, t;
 
     scanf("%c%c %d %d", &s, &t, &w, &h);
